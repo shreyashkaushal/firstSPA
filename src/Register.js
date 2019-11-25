@@ -60,9 +60,9 @@ class Register extends Component
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-8">
-                  <div className="card bg-light">
+                  <div className="card bg-secondary">
                     <div className="card-body">
-                      <h3 className="font-weight-light mb-3">Register</h3>
+                      <h3 className="font-weight-bold mb-3">Register</h3>
                       <div className="form-row">
                       {
                           this.state.errorMessage !== null ? (
@@ -129,7 +129,7 @@ class Register extends Component
                         </section>
                       </div>
                       <div className="form-group text-right mb-0">
-                        <button className="btn btn-primary" type="submit">
+                        <button className="btn btn-success" type="submit">
                           Register
                         </button>
                       </div>
